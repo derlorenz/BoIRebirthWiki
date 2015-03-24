@@ -13,5 +13,6 @@
     <string name="title_activity_trinkets">trinkets</string>
     <string name="title_activity_test">test</string>
     <string name="title_activity_settings">settings</string>
+    <string name="title_activity_search">search</string>
 
 </resources>

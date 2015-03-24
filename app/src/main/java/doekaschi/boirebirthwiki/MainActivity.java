@@ -25,7 +25,9 @@ public class MainActivity extends ActionBarActivity {
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         if (android.os.Build.VERSION.SDK_INT > 9) {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -87,6 +89,11 @@ public class MainActivity extends ActionBarActivity {
 
     public void openTest(View view) {
         Intent i=new Intent(this, test.class);
+        startActivity(i);
+    }
+
+    public void openSearch(View view) {
+        Intent i=new Intent(this, search.class);
         startActivity(i);
     }
 
