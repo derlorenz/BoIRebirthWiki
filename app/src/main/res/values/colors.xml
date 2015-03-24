@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_background">#755200</color>
+    <color name="status_bg_settings">#C4C4C4</color>
+    <color name="primaryDef">#B57F00</color>
+    <color name="primaryDarkDef">#755200</color>
+</resources>
