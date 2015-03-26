@@ -28,6 +28,7 @@ public class search extends ActionBarActivity {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        setTitle("Search");
     }
 
 
